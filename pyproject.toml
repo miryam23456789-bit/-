@@ -4,7 +4,9 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.15"
-dependencies = []
+dependencies = [
+    "pydantic>=2.14.3",
+]
 
 [project.scripts]
 my-project = "my_project:main"
